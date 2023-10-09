@@ -59,7 +59,7 @@ bool validityChecker(vector<int>& B, int N) // using & means you pass a referenc
 int main()
 {
     // Open and read text file:
-    ifstream textFile("lab1in.txt");
+    ifstream textFile("trainCarts.txt");
 
     int N; // integer for number of coaches
     textFile >> N; //  read the first line in the file.
