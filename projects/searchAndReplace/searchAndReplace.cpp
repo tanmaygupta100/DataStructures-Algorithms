@@ -68,14 +68,14 @@ void scanRegion(vector<vector<char>> &board, int row, int col) {
  */
 int main() {
   // Open the input file for reading:
-  ifstream inputFile("input.txt");
+  ifstream inputFile("board.txt");
   int n;          // variable to store first value read from the file.
   inputFile >> n; // Read the size of board (n), using extraction operator >>.
 
   // Create a 2D vector to store the board:
   vector<vector<char>> board(n, vector<char>(n));
 
-  // Read the board from input.txt
+  // Read the board from board.txt
   for (int i = 0; i < n; i++) // Reading the rows
   {
     for (int j = 0; j < n; j++) // Reading the columns
