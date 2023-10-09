@@ -34,4 +34,6 @@ Algorithm floor(sqrt(n))
     else
       right = key - 1 // search on the left side of the current space
   }
+
+  return ans // return the set answer
 }
